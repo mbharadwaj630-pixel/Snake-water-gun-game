@@ -1,0 +1,64 @@
+import random
+
+# -----------------------------------------------
+# Snake–Water–Gun Game with Real-Life Decision Logic
+# -----------------------------------------------
+# This game represents a real-life decision model where:
+# - Each option is strong against one choice,
+# - Weak against another,
+# - And neutral in some cases.
+#
+# This mirrors real-life systems such as:
+# • Strategy planning
+# • Competitive decision cycles
+# • Biological interactions
+# • Business product choices
+#
+# Example:
+# - Snake > Water (like predator > environment)
+# - Water > Gun (water ruins metal like real world)
+# - Gun > Snake (tool > danger)
+#
+# This is similar to real-life scenarios where no choice is always best.
+# -----------------------------------------------
+
+def play():
+    print("Snake - Water - Gun Game")
+    print("s for Snake, w for Water, g for Gun")
+
+    user = input("Enter your choice (s/w/g): ").lower()
+    choices = ['s', 'w', 'g']
+    computer = random.choice(choices)
+
+    print(f"Computer chose: {computer}")
+
+    # Draw condition
+    if user == computer:
+        print("It's a Draw!")
+
+    # Snake vs Water
+    elif user == 's' and computer == 'w':
+        print("You Win! Snake drinks water (Predator > Environment).")
+
+    elif user == 's' and computer == 'g':
+        print("You Lose! Gun kills snake (Tool > Danger).")
+
+    # Water vs Gun
+    elif user == 'w' and computer == 'g':
+        print("You Win! Water damages gun (Nature > Metal).")
+
+    elif user == 'w' and computer == 's':
+        print("You Lose! Snake drinks water (Predator > Environment).")
+
+    # Gun vs Snake
+    elif user == 'g' and computer == 's':
+        print("You Win! Gun kills snake (Tool > Danger).")
+
+    elif user == 'g' and computer == 'w':
+        print("You Lose! Water damages gun (Nature > Metal).")
+
+    else:
+        print("Invalid input! Please enter s, w, or g.")
+
+# Running the game
+play()
