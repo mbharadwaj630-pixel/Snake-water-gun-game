@@ -16,7 +16,7 @@ In many real-world systems, choices interact in non-linear ways—each option ma
 - Users who enjoy simple console-based games  
 - Teachers needing examples of conditional logic and randomness  
 
-## 📌 High-Level Features
+##  High-Level Features
 - Console-based user interaction  
 - Random computer choice generator  
 - Real-life analogy-based decision rules  
