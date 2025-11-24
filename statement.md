@@ -1,14 +1,14 @@
-# Project Statement – Snake–Water–Gun Game
+# Project Statement – Snake Water Gun Game
 
 ##  Problem Statement
-In many real-world systems, choices interact in non-linear ways—each option may be strong against one but weak against another. This project simulates such competitive decision-making using the classic Snake–Water–Gun game, where a user competes against a computer using predefined logical rules.
+In many real world systems, choices interact in non linear ways each option may be strong against one but weak against another. This project simulates such competitive decision making using the classic Snake Water Gun game, where a user competes against a computer using predefined logical rules.
 
 ## Scope of the Project
 - Create an interactive Python game  
-- Implement real-life-inspired decision logic  
-- Allow user input and computer-generated responses  
+- Implement real life inspired decision logic  
+- Allow user input and computer generated responses  
 - Provide win/lose/draw outcomes  
-- Act as a beginner-friendly demonstration of Python programming concepts  
+- Act as a beginner friendly demonstration of Python programming concepts  
 
 ## Target Users
 - Students learning Python  
