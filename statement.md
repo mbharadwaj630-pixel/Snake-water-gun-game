@@ -13,12 +13,12 @@ In many real world systems, choices interact in non linear ways each option may 
 ## Target Users
 - Students learning Python  
 - Beginners exploring game logic  
-- Users who enjoy simple console-based games  
+- Users who enjoy simple console based games  
 - Teachers needing examples of conditional logic and randomness  
 
-##  High-Level Features
-- Console-based user interaction  
+##  High Level Features
+- Console based user interaction  
 - Random computer choice generator  
-- Real-life analogy-based decision rules  
+- Real life analogy based decision rules  
 - Easy to run and understand  
 - No external dependencies (only Python)
