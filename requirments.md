@@ -1,4 +1,4 @@
-# Requirements for Snake–Water–Gun Game (Python Project)
+# Requirements for Snake Water Gun Game (Python Project)
 
 ## 1. Functional Requirements
 
@@ -32,7 +32,7 @@
 ## 2. Non-Functional Requirements
 
 ### 2.1 Usability
-- The interface must be simple and text-based.
+- The interface must be simple and text based.
 - Instructions must be easy to understand for beginners.
 
 ### 2.2 Performance
@@ -67,8 +67,8 @@
 ---
 
 ## 4. Constraints
-- Must be console-based only (no GUI required)
-- Only Python built-in modules allowed (e.g., `random`)
+- Must be console based only (no GUI required)
+- Only Python built in modules allowed (e.g., `random`)
 - No external APIs or internet access needed
 
 ---
@@ -81,6 +81,6 @@
 ---
 
 ## 6. Dependencies
-- Python’s built-in `random` module (no external dependencies)
+- Python’s built in `random` module (no external dependencies)
 
 --
